@@ -5,7 +5,7 @@
 }
 
 .para{
-    margin-left: 430px;
+    margin-left:500px;
     margin-top: -30px;
     color: white;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -14,8 +14,9 @@
 }
 .foot{
     background-color:#3b5998;
-    height: 48px;
-    min-width: 600px;
+    height: 70px;
+    max-height: 100px;
+    min-height: 100px;
     
 }
 .img{
@@ -37,9 +38,24 @@
     
     
 }
+.footer{
+    background-color:#3b5998 ;
+    margin-left: -100px;
+    width: 100%;
+    height: 50px;
+}
+.footer li{
+    margin-left: 10px;
+color: white;
+list-style: none;
+text-decoration: none;
+
+
+}
+
 
 .leftitems{
-    margin-left: 990px;
+    margin-left: 1100px;
     margin-top: -40px;
     padding: 1px;
     width: 30%;
@@ -47,8 +63,9 @@
     color: grey;
 }
 .footer{
-    margin-left: 80px;
-    margin-top: 10px;
+    margin-left: 2px;
+    margin-top:2 px;
+    text-decoration: none;
 }
 .img{
     margin-top: 10px;
@@ -64,24 +81,38 @@
 .saylani{
     width: 200px;
     margin-left: 100px;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .second li{
-    display: inline-flex;
     padding: 10px;
     text-decoration: none;
     color: black;
-    text-decoration: none;
 
 }
 .second{
-    margin-left: 450px;
-    margin-top: -54px;
+    margin-left: 500px;
+    margin-top: -80px;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-weight: lighter;
     text-decoration: none;
 
 
+}
+.nav{
+    background-color: #3b5998;
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.nav-link div{
+    color: black;
+    background-color: rgb(255, 251, 251);
+}
+.two{
+    background-color:#0040ff;
+height: 300px;
+margin-top: 40px;
+width: 1700px;
 }
 
     .submenu{
@@ -100,13 +131,19 @@ width: 1690px;
         flex-direction: column;
     }
 }
+.hellomydiv{
+    background-color:white;
+    color: grey;
+    margin-left: 100px;
+}
+nav
 
 .move{
     background-color:#3b5998;
     color: white;
-    width: 87%;
+    width: 130%;
     height: 30px;
-    margin-left: 90px;
+    margin-left: 120px;
     align-items: center;
     margin-top: 20px;
 }
@@ -145,6 +182,14 @@ h1{
 
 
 }
+.uk li{
+    background-color: rgb(255, 250, 250);
+    list-style: none;
+    display: inline-block;
+    color: black;
+    height: 35px;
+    margin-top: 4px;
+}
 .small{
     align-items: center;
     text-align: center;
@@ -181,7 +226,7 @@ p{
 }.spoon{
     width: 120px;
     margin-left: 180px;
-    margin-top: 50px;
+    margin-top: 10px;
     padding: 20px;
     margin-bottom: -20px;
 }
@@ -194,18 +239,17 @@ p{
 }
 .number{
     color: white;
-    margin-left: 70px;
-    font-size: 50px;
+    margin-left: 60px;
+    font-size: 48px;
     margin-top: -4px;   
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: bold;
     width: 100%;
 }
 .last{
-    margin-left: 130px;
-    font-size: 18px;
+    margin-left: 100px;
+    font-size: 22px;
     color: white;
-    padding: 10px;
     margin-top: -5px;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 
@@ -213,10 +257,13 @@ font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans
 .what{
     margin-top: 100px;
 }
+#yes{
+    margin-left: 
+}
 .month{
     color:rgb(32, 206, 32);
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 18px;
+    font-size: 22px;
 }
 .health{
     width: 50px;
@@ -288,7 +335,7 @@ margin-top:10px;
 
 }
 .mydiv{
-    margin-left: 180px;
+    margin-left: 100px;
 }
 .write{
     margin-left: 140px;
@@ -329,7 +376,7 @@ margin-top:10px;
 }
 .account{
     margin-left: 1120px;
-    margin-top: -250px;
+    margin-top: -10px;
     font-size: 18px;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: grey;
@@ -443,13 +490,13 @@ box-shadow:grey 1px 1px 1px 1px;
     margin-left: 130px;
 }
 .socialmedia{
-    margin-left: 700px;
+    margin-left: 850px;
     
 }
 .socialmedia li{
     list-style: none;
     display: inline-block;
-    margin-left: -10px;
+    margin-left: -20px;
 }
 #lastdiv{
     border:3px solid  #0040ff ;
@@ -462,6 +509,15 @@ li .dropdown{
     background-color: #0040ff;
     border-radius: 20px;
 
+}
+.none{
+    background-color: transparent;
+    margin-top: -360px;
+    margin-left: 1120px;
+    color:#0040ff ;
+font-family: Georgia, 'Times New Roman', Times, serif;
+font-weight: bold;
+font-size: 30px;
 }
 .dropdown :hover{
     background-color: #3b5998;
@@ -479,6 +535,10 @@ li .dropdown{
 .dropdown-item:hover{
     background-color: #3b5998;
 }
+.nonane li{
+    list-style: none;
+
+}
 #class{
     background-color: grey;
 }
@@ -486,8 +546,35 @@ li .dropdown{
     list-style: none;
     display: inline-block;
 }
+.hash{
+    color: white;
+}
 
-
+<ul class="socialmedia">
+<li><a href="https://www.facebook.com/saylaniwelfare/"><img src="https://seeklogo.net/wp-content/uploads/2013/11/facebook-flat-vector-logo.png" width="20" class="img" id="lastdiv"></a></li>
+<li><a href="https://twitter.com/OfficialSwit">        <img src="https://seeklogo.net/wp-content/uploads/2015/09/twitter-square-logo.png" width="20" class="img" id="lastdiv"></a></li>
+ <li><a href="https://www.instagram.com/saylaniwelfare/"><img src="https://seeklogo.net/wp-content/uploads/2016/05/instagram-icon-logo-vector-download.jpg" width="20" class="img" id="lastdiv"></a></li>
+  <li><a href="https://api.whatsapp.com/send?phone=923331201585&text=&source=&data=&app_absent="><img src="https://seeklogo.net/wp-content/uploads/2013/04/whatsapp-icon-vector.png" width="20" class="img" id="lastdiv"></a> </li>
+   <li><a href="https://www.youtube.com/c/SaylaniWelfareTrustOfficialPage"><img src="http://pngimg.com/uploads/youtube/youtube_PNG20.png" width="20" class="img"  id="lastdiv"></a><li>
+   <div class="font">
+   Useful Links<br><span class="line">________</span><span>_____________________________</span>
+   
+    </div >
+    <ul class="picture">
+    <li class="nav-item"><a class="nav-link"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/Hepatitis.png" class="house">HEPATITIS</a></li>
+    <li class="nav-item"><a class="nav-link"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/housing.png" class="house">HOUSING SOCIETY</a></li>
+    |</ul>
+    <ul class="pictureone">
+    <li class="nav-item"><a class="nav-link"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/IT.png" class="house">IT LITERACY</a></li>
+    <li class="nav-item"><a class="nav-link"><img src="https://www.saylaniwelfare.com/public_html/images/saylani/icons/tharparkar.png" class="house">THARPARKAR</a></li>
+    </ul>
+   <p class="account">Saylani Welfare Distributing Ration &<br> Clothes to affected people of Balochistan<br> .More Details
+                Entry Test Accouncement<br> (Graphic Designing & Video Editing<br>/Animation Course) On Sunday 3rd March <br>2019 @ 11:00Am Vanue: 4rh Floor, Saylani<br> Welfare International Trust HeadOffice<br> Bahadurabad .More Details
+                
+                Dr Jamil Ahmed <br>(Additional Inspector General of Police) &<br> Atiqmir Visit Saylani Welfare International <br>Trust, Saylani Mass I.T. Training .More <br>Details
+                
+                PIAIC Entrance Exam Merit Ranking<br> List Announced.More Details</li>
+            </div>
 
 
 
